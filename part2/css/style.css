@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+
+.table1{
+    margin: 100px auto;
+    height: 500px;
+    width: 500px;
+    background-color:yellow;
+    color: red;
+    border: 3px solid black;
+
+}
+
+.table1 td{
+    
+    background-color: black;
+    border: 3px double;
+    text-align: center;
+}
+
+table td:hover{
+    background-color: yellow;
+}
+
+td:active{
+    background-color: white;
+}
+
+a{
+    width: 30px;
+    font-size: large;
+    color: green;
+    outline: none;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+table td:first-child{
+    background-color:brown;
+    color: white;
+}
+
+table td:last-child{
+    color: white;
+}
+
+table td:last-child{
+    color: white;
+}
+
+table td:nth-child(3){
+    background-color: purple;
+}
+
+table td:nth-child(5){
+    background-color: purple;
+}

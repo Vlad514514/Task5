@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+.table1{
+    margin: 100px auto;
+    height: 500px;
+    width: 500px;
+    background-color:red;
+    color: red;
+    border: 3px solid black;
+
+}
+
+.table1 td{
+    background-color: black;
+    border: 3px solid;
+    text-align: center;
+}
+
+table td:hover{
+    background-color: yellow;
+    cursor:grab;
+}
+
+table td:active{
+    background-image: url(../img/img1.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+}
+
+a{
+    width: 30px;
+    font-size: large;
+    color: green;
+    outline: none;
+    text-decoration: none;
+    cursor:pointer;
+}
